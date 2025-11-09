@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi Sahay - Agricultural Assistance App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Krishi Sahay</h1>
+        <p>Your Agricultural Assistant</p>
+    </header>
+
+    <main>
+        <section id="weather-section">
+            <h2>Real-Time Weather Information</h2>
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="get-weather-btn">Get Weather</button>
+            <div id="weather-display"></div>
+        </section>
+
+        <section id="assistance-section">
+            <h2>Ask Your Doubts</h2>
+            <div id="text-assistance">
+                <input type="text" id="question-input" placeholder="Type your question here">
+                <button id="ask-btn">Ask</button>
+            </div>
+            <div id="voice-assistance">
+                <button id="voice-btn">Speak Your Question</button>
+                <p id="voice-status">Click to start voice input</p>
+            </div>
+            <div id="response-display"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Krishi Sahay. Helping farmers grow better.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
